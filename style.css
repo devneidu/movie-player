@@ -1,0 +1,46 @@
+body{
+  /* background: linear-gradient(135deg, #7c1599 0%,#921099 48%,#7e4ae8 100%); */
+  background: #000000
+}
+.wrapper{
+    margin-top:200px;
+    text-align:center;
+}
+.upload-btn-wrapper {
+    position: relative;
+    overflow: hidden;
+    display: inline-block;
+}
+
+.btn {
+    /* border: 2px solid gray; */
+    border: 0;
+    color: rgb(255, 255, 255);
+    /* background-color: rgb(172, 65, 38); */
+    background: linear-gradient(135deg, #7c1599 0%,#921099 48%,#7e4ae8 100%);
+    padding: 8px 20px;
+    border-radius: 8px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.upload-btn-wrapper input[type=file] {
+    font-size: 100px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    opacity: 0;
+}
+
+h1{
+    color: #ffffff
+}
+.error{
+    color: rgb(251, 48, 48)
+}
+.success{
+    color: rgb(61, 226, 61)
+}
+video{
+    width: 40%
+}
